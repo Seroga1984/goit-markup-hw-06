@@ -768,6 +768,43 @@ fill: var(--accent-txt-color--);
   margin-bottom: 20px;
 }
 
+.footer-form {
+    display: block;
+    margin-left: auto;
+   
+}
+
+/* Форма подвал */
+
+.footer-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-imput {
+  padding: 16px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  
+    width: 358px;
+    border-radius: 4px;
+    outline: transparent;
+    color: var(--sekondari-txt-color2--);
+    margin-right: 12px;
+    background-color:var(--hero-footer-color) ;
+}
+
+.footer-button {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon-batton {
+  margin-left: 10px;
+}
+
 /* Портфолио */
 
 .portfolio {
